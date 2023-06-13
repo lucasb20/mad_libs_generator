@@ -6,7 +6,8 @@
 
 header h1{
     text-align: center;
-    margin: 20px 0;
+    margin: 20px 0px;
+    font-size: 1.8em;
 }
 
 #canvas{
@@ -14,6 +15,38 @@ header h1{
     margin: 20px auto;
     background-color: rgb(202, 186, 166);
     border: 1px solid black;
+}
+
+main form{
+    display: block;
+    border: 1px solid black;
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+}
+
+#entrada{
+    display: flex;
+    justify-content: center;
+}
+
+#lb_name{
+    margin-right: 10px;
+}
+
+#but_send{
+    margin: 5px auto;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50px;
+    height: 15px;
+}
+
+#but_send:hover{
+    background-color: lightgrey;
 }
 
 footer p{

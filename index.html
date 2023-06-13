@@ -6,7 +6,7 @@
     <title>Mad Libs Generator</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
-<body>
+<body onload="init()">
     <header>
         <h1>Mad Libs Generator</h1>
     </header>
@@ -14,6 +14,13 @@
         <canvas id="canvas">
             Seu navegador não suporta Canvas.
         </canvas>
+        <form method="post">
+            <div id="entrada">
+                <label id="lb_name" for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div id="but_send">Send</div>
+        </form>
     </main>
     <footer>
         <p>Jogo produzido por Lucas Rocha.</p>
